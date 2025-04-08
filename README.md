@@ -1,47 +1,53 @@
-NLP Projects Repository
+# NLP Projects Repository
 
 This repository contains two distinct NLP projects, each housed within their respective directories:
 
-NER_SciSpacy
+- [**NER_SciSpacy**](NER_SciSpacy/)
+- [**Rotten_Tomatos_Sentiment**](Rotten_Tomatos_Sentiment/)
 
-Rotten_Tomatos_Sentiment
+---
 
-1. NER_SciSpacy
+## 📂 NER_SciSpacy
 
-Overview
+### 📌 Overview
 
-The NER_SciSpacy directory demonstrates advanced Named Entity Recognition (NER) tailored specifically for biomedical and clinical texts. Utilizing SciSpacy's highly specialized biomedical models, the project achieves high precision and recall (F1 scores), particularly with the en_ner_bc5cdr_md model, known for its robust performance in identifying diseases and chemical entities.
+The `NER_SciSpacy` directory contains an advanced Named Entity Recognition (NER) project specifically designed for biomedical and clinical texts. It leverages SciSpacy, particularly the powerful biomedical model `en_ner_bc5cdr_md`, achieving high precision, recall, and overall strong F1 scores in recognizing diseases and chemical entities.
 
-Highlights
+### 🌟 Highlights
 
-Utilizes SciSpacy library and models from the SciSpacy collection.
+- Utilizes specialized biomedical models from the [SciSpacy collection](https://allenai.github.io/scispacy/).
+- Implements dependency parsing in conjunction with NER for detailed entity-relationship extraction.
+- Employs abbreviation detection and resolution to enhance clarity and accuracy of identified entities.
+- Integrates the UMLS Entity Linker for robust semantic interpretation of clinical terms.
 
-Implements dependency parsing on top of NER to extract meaningful entity relationships from clinical texts.
+### 🛠️ Implementation
 
-Includes abbreviation detection and resolution for clearer and more precise entity identification.
+The detailed implementation is available as a Jupyter notebook within the [`NER_SciSpacy`](NER_SciSpacy/) directory.
 
-Employs the UMLS Entity Linker for deeper semantic understanding, enhancing clinical entity recognition accuracy.
+---
 
-Code
+## 📂 Rotten_Tomatos_Sentiment
 
-Find the comprehensive Jupyter notebook for detailed implementation in the NER_SciSpacy directory.
+### 📌 Overview
 
-2. Rotten_Tomatos_Sentiment
+The `Rotten_Tomatos_Sentiment` directory demonstrates a comprehensive sentiment analysis pipeline applied to movie reviews from Rotten Tomatoes. This project harnesses modern transformer models along with meticulous data preprocessing, cleaning, and language detection methods to accurately determine sentiment polarity.
 
-Overview
+### 🌟 Highlights
 
-The Rotten_Tomatos_Sentiment directory showcases sentiment analysis on Rotten Tomatoes movie reviews, leveraging modern transformer architectures. The project emphasizes thorough data preprocessing, including robust data cleaning techniques and language detection to enhance model performance and accuracy.
+- Applies state-of-the-art transformer architectures for effective sentiment classification.
+- Incorporates robust language detection ensuring quality and consistency of the input data.
+- Delivers reliable and interpretable sentiment analysis results.
 
-Highlights
+### 🛠️ Implementation
 
-Applies state-of-the-art transformer models for sentiment classification.
+Comprehensive preprocessing and model training steps can be found in the Jupyter notebook provided within the [`Rotten_Tomatos_Sentiment`](Rotten_Tomatos_Sentiment/) directory.
 
-Demonstrates detailed preprocessing steps including removal of noise, irrelevant data, and language filtering.
+---
 
-Incorporates language detection methods to ensure the input corpus' integrity.
+## 🚀 Getting Started
 
-Achieves reliable performance metrics suitable for analyzing sentiment polarity accurately.
+Follow these steps to explore or expand these projects:
 
-Code
-
-Detailed preprocessing and model-training steps can be reviewed in the provided Jupyter notebook within the Rotten_Tomatos_Sentiment directory.
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
