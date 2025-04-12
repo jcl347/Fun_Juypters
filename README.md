@@ -48,6 +48,3 @@ Comprehensive preprocessing and model training steps can be found in the Jupyter
 
 Follow these steps to explore or expand these projects:
 
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
